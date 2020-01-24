@@ -1,0 +1,119 @@
+BUILT IN DATA TYPES
+-------------------------
+In programming, data type is an important concept.
+
+Variables can store data of different types, and different types can do different things.
+
+Python has the following data types built-in by default, in these categories:
+
+Text Type:	        str
+Numeric Types:	    int, float, complex
+Sequence Types:   	list, tuple, range
+Mapping Type:	      dict
+Set Types:	        set, frozenset
+Boolean Type:	      bool
+Binary Types:	      bytes, bytearray, memoryview
+----------------------------------------------------------------------------------------
+GETTING THE DATA TYPE:
+----------------------------------------------------------------------------------------
+You can get the data type of any object by using the type() function:
+
+----------------------------------------------------------------------------------------
+PYTHON NUMBERS
+----------------------------------------------------------------------------------------
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+Int
+Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+
+x = 1
+y = 35656222554887711
+z = -3255522
+
+Float
+Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+
+x = 35e3
+y = 12E4
+z = -87.7e100
+
+Complex
+Complex numbers are written with a "j" as the imaginary part:
+
+x = 3+5j
+y = 5j
+z = -5j
+
+----------------------------------------------------------------------------------------
+String Literals
+----------------------------------------------------------------------------------------
+String literals in python are surrounded by either single quotation marks, or double quotation marks.
+
+a = "Hello"
+print(a)
+
+Multiline Strings
+You can assign a multiline string to a variable by using three quotes:
+
+Example
+You can use three double quotes:
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+----------------------------------------------------------------------------------------
+Boolean Values
+----------------------------------------------------------------------------------------
+In programming you often need to know if an expression is True or False.
+
+You can evaluate any expression in Python, and get one of two answers, True or False.
+
+When you compare two values, the expression is evaluated and Python returns the Boolean answer:
+
+Example
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+
+
+----------------------------------------------------------------------------------------
+PYTHON OPERATORS
+
+----------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------
+Python Collections (Arrays)
+
+----------------------------------------------------------------------------------------
+There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered and unindexed. No duplicate members.
+Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.
+
+List
+^^^^^^^
+A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
+
+thislist = ["apple", "banana", "cherry"]
+Negative Indexing
+Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.
+
+Tuple
+^^^^^^^
+A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.
+thistuple = ("apple", "banana", "cherry")
+
+
+
+
+
+
